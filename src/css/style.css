@@ -16,7 +16,6 @@ body {
     border-radius: .25rem;
     outline: coral;
     border-radius: 1px solid #ced4da;
-    /*background-clip: padding-box;*/
 }
 
 #search {
