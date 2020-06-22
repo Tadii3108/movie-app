@@ -6,13 +6,10 @@ Pure Vanilla JS - HTML, CSS and Javascript.
 
 OMDb API - For API generation
 
-## Prerequisites
-Live server in prefered IDE
-
 ## Setup instructions
 Clone the repo
 
-Live serve index.html file
+Live serve the index.html file in browser
 
 ## Factors considered when determining the technical & architectural choices
 For its technical aspects I used Javascript for its DOM manipulation capabilities to enable maximum dynamic architecture and integrations.
