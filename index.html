@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./src/css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
     <title>Movie Info</title>
 </head>
 <body>
     <div id="container">
         
         <h1>WELCOME TO MOVIE INFO APP!</h1>
-        <img src="" alt="">
 
         <form>
             <div id="form-group">
@@ -21,14 +22,23 @@
             <button type="submit" id="search">Search for movie</button>
 
         </form>
-
     </div>
     
     <div id="movies-searchable"></div>
+
+    <h1>MY FAVOURITE MOVIES</h1>
+    <form>
+        <div id="form-group">
+            <input type="text" id="input-value" placeholder="Enter movie">
+        </div>
+        
+        <button type="submit" id="enter">Add</button>
+    </form>
+    
+    <div id="list">Chosen Films:</div>
 
     <script src="./src/js/apiTransaction.js"></script>
     <script src="./src/js/app.js"></script>
 
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </html>
