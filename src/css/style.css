@@ -88,3 +88,9 @@ img:hover {
     display: block;
     margin-top: 40px;
 }
+
+p { 
+    margin: 1px; 
+    padding-left: 5px; 
+    color: #fff; 
+}

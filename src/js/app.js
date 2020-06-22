@@ -80,9 +80,9 @@ document.onclick = function(e) {
 
 $("#enter").click(
     function() {
-      var movie = $("#input-value").val();
-      var list = (movie);
-      $('#list').append('<p>' + list + '</p>');
+        var movie = $("#input-value").val();
+        var list = (movie);
+        $('#list').append('<p>' + list + '</p>');
     });
 
 searchMovie('Avengers');
